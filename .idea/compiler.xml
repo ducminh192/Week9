@@ -10,6 +10,7 @@
         <module name="Bai02" />
         <module name="Bai01-MathUtils" />
         <module name="Bai01" />
+        <module name="Bai05-Jacoco" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
