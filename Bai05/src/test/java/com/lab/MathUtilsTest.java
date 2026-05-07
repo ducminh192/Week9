@@ -4,20 +4,10 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class MathUtilsTest {
-    MathUtils utils = new MathUtils();
-
     @Test
     void testAdd() {
-        assertEquals(5, utils.add(2, 3));
+        MathUtils math = new MathUtils();
+        assertEquals(5, math.add(2, 3));
     }
-
-    @Test
-    void testSubtract() {
-        assertEquals(1, utils.subtract(3, 2));
-    }
-
-    @Test
-    void testMultiply() {
-        assertEquals(6, utils.multiply(2, 3));
-    }
+    // Tuyệt đối không viết test cho subtract và multiply ở bước này
 }
