@@ -5,9 +5,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class MathUtilsTest {
     @Test
-    void testAdd() {
-        MathUtils math = new MathUtils();
-        assertEquals(5, math.add(2, 3));
+    void testSubtract() {
+        assertEquals(1, new MathUtils().subtract(3, 2));
     }
-    // Tuyệt đối không viết test cho subtract và multiply ở bước này
+    @Test
+    void testMultiply() {
+        assertEquals(6, new MathUtils().multiply(2, 3));
+    }
 }
