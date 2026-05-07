@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Bai01" />
         <module name="Bai02" />
+        <module name="Bai01-MathUtils" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
