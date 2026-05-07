@@ -8,10 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Bai04" />
         <module name="Bai02" />
+        <module name="Bai01" />
+        <module name="Bai07-PR-Review" />
+        <module name="Bai05-Jacoco" />
         <module name="Bai01-MathUtils" />
         <module name="Bai06-Caching" />
-        <module name="Bai01" />
-        <module name="Bai05-Jacoco" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
