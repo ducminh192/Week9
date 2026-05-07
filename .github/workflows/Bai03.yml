@@ -1,0 +1,29 @@
+name: Bai03 Pipeline
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Bai03 Pipeline
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      - name: Bai03 Pipeline
+        run: mvn clean package -f Bai03/pom.xml
+
+      - name: Bai03 Pipeline
+        uses: actions/upload-artifact@v4
+        with:
+          name: Bai03 Pipeline
+          path: Bai03/target/*.jar
